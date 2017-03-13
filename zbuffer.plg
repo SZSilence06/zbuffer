@@ -1,0 +1,85 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: zbuffer - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\DELL-WKY\AppData\Local\Temp\RSPB327.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/zbuffer.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\VC++6.0程序\zbuffer\MainFrm.cpp"
+"E:\VC++6.0程序\zbuffer\Pipeline.cpp"
+"E:\VC++6.0程序\zbuffer\scanline.cpp"
+"E:\VC++6.0程序\zbuffer\zbuffer.cpp"
+"E:\VC++6.0程序\zbuffer\zbufferView.cpp"
+]
+Creating command line "cl.exe @"C:\Users\DELL-WKY\AppData\Local\Temp\RSPB327.tmp"" 
+Creating temporary file "C:\Users\DELL-WKY\AppData\Local\Temp\RSPB328.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/zbuffer.pdb" /debug /machine:I386 /out:"Debug/zbuffer.exe" /pdbtype:sept 
+".\Debug\MainFrm.obj"
+".\Debug\Matrix.obj"
+".\Debug\ObjParser.obj"
+".\Debug\Pipeline.obj"
+".\Debug\scanline.obj"
+".\Debug\StdAfx.obj"
+".\Debug\zbuffer.obj"
+".\Debug\zbufferDoc.obj"
+".\Debug\zbufferView.obj"
+".\Debug\zbuffer.res"
+]
+Creating command line "link.exe @"C:\Users\DELL-WKY\AppData\Local\Temp\RSPB328.tmp""
+<h3>Output Window</h3>
+Compiling...
+MainFrm.cpp
+Generating Code...
+Compiling...
+Pipeline.cpp
+d:\microsoft visual studio\vc98\include\vector(19) : warning C4786: '?Init@@YAXAAV?$vector@VTriangle@@V?$allocator@VTriangle@@@std@@@std@@AAV?$vector@V?$list@UZB_Polygon@@V?$allocator@UZB_Polygon@@@std@@@std@@V?$allocator@V?$list@UZB_Polygon@@V?$allocator@UZB_Polygon@@@std@@@std@@@2@@2@AAV?$vector@V?$list@UZB_Edge@@V?$allocator@UZB_Edge@@@std@@@std@@V?$allocator@V?$list@UZB_Edge@@V?$allocator@UZB_Edge@@@std@@@std@@@2@@2@@Z' : identifier was truncated to '255' characters in the browser information
+d:\microsoft visual studio\vc98\include\list(21) : warning C4786: '?UpdateActive@@YAXAAV?$vector@V?$list@UZB_Polygon@@V?$allocator@UZB_Polygon@@@std@@@std@@V?$allocator@V?$list@UZB_Polygon@@V?$allocator@UZB_Polygon@@@std@@@std@@@2@@std@@AAV?$vector@V?$list@UZB_Edge@@V?$allocator@UZB_Edge@@@std@@@std@@V?$allocator@V?$list@UZB_Edge@@V?$allocator@UZB_Edge@@@std@@@std@@@2@@2@AAV?$list@UZB_ActivePolygon@@V?$allocator@UZB_ActivePolygon@@@std@@@2@AAV?$list@UZB_ActiveEdge@@V?$allocator@UZB_ActiveEdge@@@std@@@2@H@Z' : identifier was truncated to '255' characters in the browser information
+E:\VC++6.0程序\zbuffer\Pipeline.cpp(3) : warning C4786: '?UpdateBuffer@@YAXAAV?$vector@V?$list@UZB_Polygon@@V?$allocator@UZB_Polygon@@@std@@@std@@V?$allocator@V?$list@UZB_Polygon@@V?$allocator@UZB_Polygon@@@std@@@std@@@2@@std@@AAV?$vector@V?$list@UZB_Edge@@V?$allocator@UZB_Edge@@@std@@@std@@V?$allocator@V?$list@UZB_Edge@@V?$allocator@UZB_Edge@@@std@@@std@@@2@@2@AAV?$list@UZB_ActivePolygon@@V?$allocator@UZB_ActivePolygon@@@std@@@2@AAV?$list@UZB_ActiveEdge@@V?$allocator@UZB_ActiveEdge@@@std@@@2@HHPAUColor@@PAH@Z' : identifier was truncated to '255' characters in the browser information
+E:\VC++6.0程序\zbuffer\Pipeline.cpp(205) : warning C4305: '=' : truncation from 'const int' to 'float'
+scanline.cpp
+d:\microsoft visual studio\vc98\include\vector(19) : warning C4786: '?Init@@YAXAAV?$vector@VTriangle@@V?$allocator@VTriangle@@@std@@@std@@AAV?$vector@V?$list@UZB_Polygon@@V?$allocator@UZB_Polygon@@@std@@@std@@V?$allocator@V?$list@UZB_Polygon@@V?$allocator@UZB_Polygon@@@std@@@std@@@2@@2@AAV?$vector@V?$list@UZB_Edge@@V?$allocator@UZB_Edge@@@std@@@std@@V?$allocator@V?$list@UZB_Edge@@V?$allocator@UZB_Edge@@@std@@@std@@@2@@2@@Z' : identifier was truncated to '255' characters in the browser information
+d:\microsoft visual studio\vc98\include\list(21) : warning C4786: '?UpdateActive@@YAXAAV?$vector@V?$list@UZB_Polygon@@V?$allocator@UZB_Polygon@@@std@@@std@@V?$allocator@V?$list@UZB_Polygon@@V?$allocator@UZB_Polygon@@@std@@@std@@@2@@std@@AAV?$vector@V?$list@UZB_Edge@@V?$allocator@UZB_Edge@@@std@@@std@@V?$allocator@V?$list@UZB_Edge@@V?$allocator@UZB_Edge@@@std@@@std@@@2@@2@AAV?$list@UZB_ActivePolygon@@V?$allocator@UZB_ActivePolygon@@@std@@@2@AAV?$list@UZB_ActiveEdge@@V?$allocator@UZB_ActiveEdge@@@std@@@2@H@Z' : identifier was truncated to '255' characters in the browser information
+E:\VC++6.0程序\zbuffer\scanline.cpp(2) : warning C4786: '?UpdateBuffer@@YAXAAV?$vector@V?$list@UZB_Polygon@@V?$allocator@UZB_Polygon@@@std@@@std@@V?$allocator@V?$list@UZB_Polygon@@V?$allocator@UZB_Polygon@@@std@@@std@@@2@@std@@AAV?$vector@V?$list@UZB_Edge@@V?$allocator@UZB_Edge@@@std@@@std@@V?$allocator@V?$list@UZB_Edge@@V?$allocator@UZB_Edge@@@std@@@std@@@2@@2@AAV?$list@UZB_ActivePolygon@@V?$allocator@UZB_ActivePolygon@@@std@@@2@AAV?$list@UZB_ActiveEdge@@V?$allocator@UZB_ActiveEdge@@@std@@@2@HHPAUColor@@PAH@Z' : identifier was truncated to '255' characters in the browser information
+d:\microsoft visual studio\vc98\include\vector(48) : warning C4786: '??0?$vector@V?$list@UZB_Polygon@@V?$allocator@UZB_Polygon@@@std@@@std@@V?$allocator@V?$list@UZB_Polygon@@V?$allocator@UZB_Polygon@@@std@@@std@@@2@@std@@QAE@IABV?$list@UZB_Polygon@@V?$allocator@UZB_Polygon@@@std@@@1@ABV?$allocator@V?$list@UZB_Polygon@@V?$allocator@UZB_Polygon@@@std@@@std@@@1@@Z' : identifier was truncated to '255' characters in the browser information
+        E:\VC++6.0程序\zbuffer\scanline.cpp(20) : see reference to class template instantiation 'std::vector<class std::list<struct ZB_Polygon,class std::allocator<struct ZB_Polygon> >,class std::allocator<class std::list<struct ZB_Polygon,class std::allocator<struct ZB_Polygon> > > >' being compiled
+d:\microsoft visual studio\vc98\include\vector(61) : warning C4786: '??0?$vector@V?$list@UZB_Polygon@@V?$allocator@UZB_Polygon@@@std@@@std@@V?$allocator@V?$list@UZB_Polygon@@V?$allocator@UZB_Polygon@@@std@@@std@@@2@@std@@QAE@PBV?$list@UZB_Polygon@@V?$allocator@UZB_Polygon@@@std@@@1@0ABV?$allocator@V?$list@UZB_Polygon@@V?$allocator@UZB_Polygon@@@std@@@std@@@1@@Z' : identifier was truncated to '255' characters in the browser information
+        E:\VC++6.0程序\zbuffer\scanline.cpp(20) : see reference to class template instantiation 'std::vector<class std::list<struct ZB_Polygon,class std::allocator<struct ZB_Polygon> >,class std::allocator<class std::list<struct ZB_Polygon,class std::allocator<struct ZB_Polygon> > > >' being compiled
+d:\microsoft visual studio\vc98\include\vector(103) : warning C4786: '?rbegin@?$vector@V?$list@UZB_Polygon@@V?$allocator@UZB_Polygon@@@std@@@std@@V?$allocator@V?$list@UZB_Polygon@@V?$allocator@UZB_Polygon@@@std@@@std@@@2@@std@@QAE?AV?$reverse_iterator@PAV?$list@UZB_Polygon@@V?$allocator@UZB_Polygon@@@std@@@std@@V12@AAV12@PAV12@H@2@XZ' : identifier was truncated to '255' characters in the browser information
+        E:\VC++6.0程序\zbuffer\scanline.cpp(20) : see reference to class template instantiation 'std::vector<class std::list<struct ZB_Polygon,class std::allocator<struct ZB_Polygon> >,class std::allocator<class std::list<struct ZB_Polygon,class std::allocator<struct ZB_Polygon> > > >' being compiled
+d:\microsoft visual studio\vc98\include\vector(105) : warning C4786: '?rbegin@?$vector@V?$list@UZB_Polygon@@V?$allocator@UZB_Polygon@@@std@@@std@@V?$allocator@V?$list@UZB_Polygon@@V?$allocator@UZB_Polygon@@@std@@@std@@@2@@std@@QBE?AV?$reverse_iterator@PBV?$list@UZB_Polygon@@V?$allocator@UZB_Polygon@@@std@@@std@@V12@ABV12@PBV12@H@2@XZ' : identifier was truncated to '255' characters in the browser information
+        E:\VC++6.0程序\zbuffer\scanline.cpp(20) : see reference to class template instantiation 'std::vector<class std::list<struct ZB_Polygon,class std::allocator<struct ZB_Polygon> >,class std::allocator<class std::list<struct ZB_Polygon,class std::allocator<struct ZB_Polygon> > > >' being compiled
+d:\microsoft visual studio\vc98\include\vector(107) : warning C4786: '?rend@?$vector@V?$list@UZB_Polygon@@V?$allocator@UZB_Polygon@@@std@@@std@@V?$allocator@V?$list@UZB_Polygon@@V?$allocator@UZB_Polygon@@@std@@@std@@@2@@std@@QAE?AV?$reverse_iterator@PAV?$list@UZB_Polygon@@V?$allocator@UZB_Polygon@@@std@@@std@@V12@AAV12@PAV12@H@2@XZ' : identifier was truncated to '255' characters in the browser information
+        E:\VC++6.0程序\zbuffer\scanline.cpp(20) : see reference to class template instantiation 'std::vector<class std::list<struct ZB_Polygon,class std::allocator<struct ZB_Polygon> >,class std::allocator<class std::list<struct ZB_Polygon,class std::allocator<struct ZB_Polygon> > > >' being compiled
+d:\microsoft visual studio\vc98\include\vector(108) : warning C4786: '?rend@?$vector@V?$list@UZB_Polygon@@V?$allocator@UZB_Polygon@@@std@@@std@@V?$allocator@V?$list@UZB_Polygon@@V?$allocator@UZB_Polygon@@@std@@@std@@@2@@std@@QBE?AV?$reverse_iterator@PBV?$list@UZB_Polygon@@V?$allocator@UZB_Polygon@@@std@@@std@@V12@ABV12@PBV12@H@2@XZ' : identifier was truncated to '255' characters in the browser information
+        E:\VC++6.0程序\zbuffer\scanline.cpp(20) : see reference to class template instantiation 'std::vector<class std::list<struct ZB_Polygon,class std::allocator<struct ZB_Polygon> >,class std::allocator<class std::list<struct ZB_Polygon,class std::allocator<struct ZB_Polygon> > > >' being compiled
+d:\microsoft visual studio\vc98\include\vector(48) : warning C4786: '??0?$vector@V?$list@UZB_Edge@@V?$allocator@UZB_Edge@@@std@@@std@@V?$allocator@V?$list@UZB_Edge@@V?$allocator@UZB_Edge@@@std@@@std@@@2@@std@@QAE@IABV?$list@UZB_Edge@@V?$allocator@UZB_Edge@@@std@@@1@ABV?$allocator@V?$list@UZB_Edge@@V?$allocator@UZB_Edge@@@std@@@std@@@1@@Z' : identifier was truncated to '255' characters in the browser information
+        E:\VC++6.0程序\zbuffer\scanline.cpp(21) : see reference to class template instantiation 'std::vector<class std::list<struct ZB_Edge,class std::allocator<struct ZB_Edge> >,class std::allocator<class std::list<struct ZB_Edge,class std::allocator<struct ZB_Edge> > > >' being compiled
+d:\microsoft visual studio\vc98\include\vector(61) : warning C4786: '??0?$vector@V?$list@UZB_Edge@@V?$allocator@UZB_Edge@@@std@@@std@@V?$allocator@V?$list@UZB_Edge@@V?$allocator@UZB_Edge@@@std@@@std@@@2@@std@@QAE@PBV?$list@UZB_Edge@@V?$allocator@UZB_Edge@@@std@@@1@0ABV?$allocator@V?$list@UZB_Edge@@V?$allocator@UZB_Edge@@@std@@@std@@@1@@Z' : identifier was truncated to '255' characters in the browser information
+        E:\VC++6.0程序\zbuffer\scanline.cpp(21) : see reference to class template instantiation 'std::vector<class std::list<struct ZB_Edge,class std::allocator<struct ZB_Edge> >,class std::allocator<class std::list<struct ZB_Edge,class std::allocator<struct ZB_Edge> > > >' being compiled
+E:\VC++6.0程序\zbuffer\scanline.cpp(46) : warning C4786: '?Init@@YAXAAV?$vector@VTriangle@@V?$allocator@VTriangle@@@std@@@std@@AAV?$vector@V?$list@UZB_Polygon@@V?$allocator@UZB_Polygon@@@std@@@std@@V?$allocator@V?$list@UZB_Polygon@@V?$allocator@UZB_Polygon@@@std@@@std@@@2@@2@AAV?$vector@V?$list@UZB_Edge@@V?$allocator@UZB_Edge@@@std@@@std@@V?$allocator@V?$list@UZB_Edge@@V?$allocator@UZB_Edge@@@std@@@std@@@2@@2@@Z' : identifier was truncated to '255' characters in the browser information
+E:\VC++6.0程序\zbuffer\scanline.cpp(168) : warning C4786: '?UpdateActive@@YAXAAV?$vector@V?$list@UZB_Polygon@@V?$allocator@UZB_Polygon@@@std@@@std@@V?$allocator@V?$list@UZB_Polygon@@V?$allocator@UZB_Polygon@@@std@@@std@@@2@@std@@AAV?$vector@V?$list@UZB_Edge@@V?$allocator@UZB_Edge@@@std@@@std@@V?$allocator@V?$list@UZB_Edge@@V?$allocator@UZB_Edge@@@std@@@std@@@2@@2@AAV?$list@UZB_ActivePolygon@@V?$allocator@UZB_ActivePolygon@@@std@@@2@AAV?$list@UZB_ActiveEdge@@V?$allocator@UZB_ActiveEdge@@@std@@@2@H@Z' : identifier was truncated to '255' characters in the browser information
+E:\VC++6.0程序\zbuffer\scanline.cpp(231) : warning C4786: '?UpdateBuffer@@YAXAAV?$vector@V?$list@UZB_Polygon@@V?$allocator@UZB_Polygon@@@std@@@std@@V?$allocator@V?$list@UZB_Polygon@@V?$allocator@UZB_Polygon@@@std@@@std@@@2@@std@@AAV?$vector@V?$list@UZB_Edge@@V?$allocator@UZB_Edge@@@std@@@std@@V?$allocator@V?$list@UZB_Edge@@V?$allocator@UZB_Edge@@@std@@@std@@@2@@2@AAV?$list@UZB_ActivePolygon@@V?$allocator@UZB_ActivePolygon@@@std@@@2@AAV?$list@UZB_ActiveEdge@@V?$allocator@UZB_ActiveEdge@@@std@@@2@HHPAUColor@@PAH@Z' : identifier was truncated to '255' characters in the browser information
+zbuffer.cpp
+zbufferView.cpp
+E:\VC++6.0程序\zbuffer\zbufferView.cpp(254) : warning C4305: 'argument' : truncation from 'const double' to 'float'
+E:\VC++6.0程序\zbuffer\zbufferView.cpp(254) : warning C4305: 'argument' : truncation from 'const double' to 'float'
+Generating Code...
+d:\microsoft visual studio\vc98\include\vector(39) : warning C4786: 'std::vector<std::list<ZB_Polygon,std::allocator<ZB_Polygon> >,std::allocator<std::list<ZB_Polygon,std::allocator<ZB_Polygon> > > >::vector<std::list<ZB_Polygon,std::allocator<ZB_Polygon> >,std::allocator<std::list<ZB_Polygon,std::allocator<ZB_Polygon> > > >' : identifier was truncated to '255' characters in the debug information
+d:\microsoft visual studio\vc98\include\vector(60) : warning C4786: 'std::vector<std::list<ZB_Polygon,std::allocator<ZB_Polygon> >,std::allocator<std::list<ZB_Polygon,std::allocator<ZB_Polygon> > > >::~vector<std::list<ZB_Polygon,std::allocator<ZB_Polygon> >,std::allocator<std::list<ZB_Polygon,std::allocator<ZB_Polygon> > > >' : identifier was truncated to '255' characters in the debug information
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/zbuffer.bsc"  ".\Debug\StdAfx.sbr" ".\Debug\MainFrm.sbr" ".\Debug\Matrix.sbr" ".\Debug\ObjParser.sbr" ".\Debug\Pipeline.sbr" ".\Debug\scanline.sbr" ".\Debug\zbuffer.sbr" ".\Debug\zbufferDoc.sbr" ".\Debug\zbufferView.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+zbuffer.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
